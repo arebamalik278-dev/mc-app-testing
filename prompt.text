@@ -1,0 +1,21 @@
+The app must include the following screens based on my existing architecture:
+
+Auth Flow: Login, Signup, Verification, ForgotPassword, and ResetPassword.
+
+Core Features: Home, SearchPage, ProductPage, and ProductUpdate.
+
+User Features: Profile, CompleteProfile, OrderHistoryPage, and WishlistPage.
+
+Information: Contact, FAQ, PrivacyPolicy, and TermsConditions.
+
+Technical Requirements:
+
+Navigation: Use Expo Router (file-based navigation) to organize these screens.
+
+State & API: Use axios for API calls. Ensure the services/api logic handles mobile-specific needs (like using the machine's IP address instead of 'localhost').
+
+Components: Convert standard web tags (div, h1, p) to React Native components (View, Text, SafeAreaView).
+
+Styling: Use NativeWind (Tailwind for React Native) or StyleSheet.create for a clean, modern UI.
+
+Storage: Use expo-secure-store for saving user authentication tokens.
